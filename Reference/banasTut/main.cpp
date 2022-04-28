@@ -193,3 +193,28 @@ int main(int argc, char** argv) {
     // ---------- CONDITIONALS ----------
     // Conditional Operators : > < >= <= == !=
     // Logical Operators : && || !
+
+    string sAge;
+    cout << "Enter your Age : ";
+    cin >> sAge;
+    int nAge = stoi(sAge);
+
+    // Used to output whether a birthday is important
+    if ((nAge >= 1) && (nAge <= 18)){
+        cout << "Important Birthday" << endl;
+    } else if ((nAge == 21) || (nAge == 50)){
+        cout << "Important Birthday" << endl;
+    } else if (nAge >= 65){
+        cout << "Important Birthday" << endl;
+    } else {
+        cout << "Not an Important Birthday" << endl;
+    }
+
+    // A ternary operator works like a compact if else
+    // statement. If the condition is true the first
+    // value is stored and otherwise the second
+    int age43 = 43;
+    bool canIVote = (age43 >= 18) ? true : false;
+    // Shows bool values as true or false
+    cout.setf(ios::boolalpha);
+    cout << "Can Derek Vote : " << canIVote << endl;

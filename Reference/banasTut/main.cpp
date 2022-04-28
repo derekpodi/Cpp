@@ -191,3 +191,5 @@ int main(int argc, char** argv) {
     printf("%d %% %d = %d\n", nNum1, nNum2, (nNum1 % nNum2));
 
     // ---------- CONDITIONALS ----------
+    // Conditional Operators : > < >= <= == !=
+    // Logical Operators : && || !

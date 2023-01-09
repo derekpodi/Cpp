@@ -1,4 +1,5 @@
 // example: one class, two objects
+//https://cplusplus.com/doc/tutorial/classes/
 #include <iostream>
 using namespace std;
 
